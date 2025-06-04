@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+page files should be server side logic only. import components. always seperate logic into reusable components.

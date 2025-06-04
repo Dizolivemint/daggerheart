@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+TypeScript NextJS application are using NextJS 15. Please use async and promises for pages that take dynamic variables. For example, [courseId]/[moduleId], to read the params, this is the pattern that MUST BE FOLLOWED: 
+
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ courseId: string; moduleId: string }>
+}) {
+  const { courseId, moduleId } = await params;
+
+
+}

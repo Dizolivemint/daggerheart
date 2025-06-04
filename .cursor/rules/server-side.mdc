@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+do not add server side logic to client components. for example, do not perform database operations in a client component. instead, use either a server action for form data and server side operations or an api route.

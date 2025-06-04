@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Always provide a type for all objects and variables. Never use the "any" type. Import types directly from [schema.prisma](mdc:prisma/schema.prisma) when possible.
